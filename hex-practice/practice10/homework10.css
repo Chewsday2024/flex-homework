@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+body {
+  background-color: rgb(1, 22, 43);
+  padding-top: 100px;
+  height: 140vh;
+}
+
+.m20 {
+  margin-top: 20px;
+}
+
+.border {
+  border: 1px solid rgba(0,0,0,0.1);
+
+  padding: 20px 12px;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.board {
+  display: flex;
+  justify-content: space-between;
+
+  width: 1000px;
+  background-color: #ffffff;
+
+  padding: 10px;
+  margin: auto;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.box1 ul {
+  width: 330px;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  color: #3f5c46;
+
+  padding: 15px 90px;
+}
+
+.l1 {
+  background-color: #3f5c46;
+
+  color: white;
+}
+
+.l2 {
+  background-color: #eaf0ed;
+}
+
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  margin-left: 20px;
+}
+
+.box2 img {
+  display: block;
+}
+
+.box2 h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #eaf0ed;
+  font-size: 25px;
+  color: #3f5c46;
+
+  padding: 25px;
+}
+
+.pocket {
+  display: flex;
+  width: 300px;
+}
+
+.pocket p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4a6651;
+  text-align: center;
+  
+}
